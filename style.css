@@ -1,0 +1,105 @@
+body {
+  background-color: #f5f5f5 ;
+  font-family: 'Ubuntu', sans-serif;
+  color: #4d606e  ;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #3fbac2;
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(150, 150, 150, 1);
+  letter-spacing: none;
+}
+
+a {
+  color: #4d606e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4d606e;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid rgba(220, 220, 220, 1);
+  width: 60%;
+  align-content: center;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(220, 220, 220);
+}
+
+.social {
+  list-style-type: none;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  padding: 0px 50px 0px 50px;
+}
+
+.fab, .fas {
+  font-size: 50px;
+  padding: 0px 0px 20px 0px;
+}
+
+.fab:hover, .fas:hover {
+  font-size: 50px;
+  padding: 0px 0px 20px 0px;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#btn-red {
+  background-color: #3fbac2;
+  padding: 15px 20px 15px 20px;
+  border-radius: 3px;
+  color: white;
+}
+
+tbody {
+  display: table.table-row.group;
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  margin: 20px;
+}
+
+.beer {
+  font-size: 16px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.beer_title {
+  text-align: left;
+  padding-left: 20px;
+}
